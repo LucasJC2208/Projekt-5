@@ -16,4 +16,7 @@ ul li {
 ul li a {
   text-decoration: none;
   color: black;
+  letter-spacing: 4px;
+  font-size: 10px;
+  justify-content: space-around;
 }
