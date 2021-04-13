@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif
 }
 
 /* NAV STARTER */
@@ -8,12 +9,12 @@
 .navContainer {
   background-color: #159655;
   border: none;
-  height: 410px;
+  height: 425px;
 }
 
 nav {
   height: 40px;
-  margin-right: 350px;
+  margin-right: 380px;
 }
 
 .menu ul li {
@@ -26,7 +27,6 @@ nav {
 .menu ul li a {
   text-decoration: none;
   color: white;
-  letter-spacing: 1px;
   font-size: 12px;
   justify-content: space-around;
   padding: 0 20px;
@@ -49,7 +49,7 @@ nav {
   background-color: #159655;
   height: 75px;
   width: auto;
-  margin-right: 360px;
+  margin-right: 390px;
 }
 
 .navSubMenu ul li {
@@ -62,7 +62,6 @@ nav {
 .navSubMenu ul li a {
   text-decoration: none;
   color: white;
-  letter-spacing: 1px;
   font-size: 15px;
   justify-content: space-around;
   padding: 0 20px;
@@ -87,34 +86,34 @@ nav {
 
 /* HEADER STARTER */
 
-h1 {
+.headerTitle {
   font-size: 45px;
   color: white;
-  margin: 40px 0 0 425px;
+  margin: 40px 0 0 400px;
 }
 
 .underTitle1 {
   color: white;
   font-size: 15px;
-  margin: 20px 0 0 425px;
+  margin: 20px 0 0 400px;
 }
 
 .underTitle2 {
   color: white;
   font-size: 15px;
-  margin: 20px 0 0 425px;
+  margin: 20px 0 0 400px;
 }
 
 .underTitle3 {
   color: white;
   font-size: 15px;
-  margin-left: 425px;
+  margin-left: 400px;
 }
 
 .underTitle4 {
   color: white;
   font-size: 15px;
-  margin-left: 425px;
+  margin-left: 400px;
 }
 
 .firkant {
@@ -125,11 +124,27 @@ h1 {
   transform: rotate(45deg);
 }
 
+/* HEADER SLUTTER */
+
+/* INDHOLD TIL TEST STARTER */
+
 .underline2 {
-  width: 1075px;
+  width: 1120px;
   height: 1px;
   background: black;
   border: none;
   margin: auto;
   margin-top: 80px;
+}
+
+.testHeader {
+  font-size: 45px;
+  color: black;
+  display: grid;
+  
+}
+
+.takeTestImage {
+  width: 400px;
+  height: auto;
 }
