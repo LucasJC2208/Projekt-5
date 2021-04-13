@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* HEADER + NAV STARTER */
+
 .navContainer {
   background-color: #159655;
   border: none;
@@ -13,14 +15,14 @@ nav {
   margin-right: 350px;
 }
 
-ul li {
+.menu ul li {
   list-style: none;
   display: inline-block;
   float: right;
   line-height: 35px;
 }
 
-ul li a {
+.menu ul li a {
   text-decoration: none;
   color: white;
   letter-spacing: 1px;
@@ -29,7 +31,7 @@ ul li a {
   padding: 0 20px;
 }
 
-ul li a:hover {
+.menu ul li a:hover {
   color: lightgrey;
   text-decoration: underline;
 }
@@ -42,6 +44,28 @@ ul li a:hover {
   opacity: 50%;
 }
 
-ul {
-  float: right;
+.navSubMenu {
+  background-color: #159655;
+  height: 100px;
+  width: auto;
 }
+
+.navSubMenu ul li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  line-height: 35px;
+}
+
+.navSubMenu ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 12px;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+
+
+/* HEADER + NAV SLUTTER */
