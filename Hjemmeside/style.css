@@ -8,7 +8,7 @@
 .navContainer {
   background-color: #159655;
   border: none;
-  height: 350px;
+  height: 410px;
 }
 
 nav {
@@ -88,33 +88,48 @@ nav {
 /* HEADER STARTER */
 
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   color: white;
-  margin: 40px 0 0 500px;
+  margin: 40px 0 0 425px;
 }
 
 .underTitle1 {
   color: white;
   font-size: 15px;
-  margin: 20px 0 0 500px;
+  margin: 20px 0 0 425px;
 }
 
 .underTitle2 {
   color: white;
   font-size: 15px;
-  margin: 20px 0 0 500px;
+  margin: 20px 0 0 425px;
 }
 
 .underTitle3 {
   color: white;
   font-size: 15px;
-  margin-left: 500px;
+  margin-left: 425px;
+}
+
+.underTitle4 {
+  color: white;
+  font-size: 15px;
+  margin-left: 425px;
 }
 
 .firkant {
   width: 40px;
   height: 40px;
   background-color: #159655;
-  margin-left: 900px;
+  margin: auto;
   transform: rotate(45deg);
+}
+
+.underline2 {
+  width: 1075px;
+  height: 1px;
+  background: black;
+  border: none;
+  margin: auto;
+  margin-top: 80px;
 }
