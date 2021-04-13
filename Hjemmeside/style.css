@@ -48,6 +48,7 @@ nav {
   background-color: #159655;
   height: 100px;
   width: auto;
+  margin-right: 360px;
 }
 
 .navSubMenu ul li {
@@ -66,6 +67,10 @@ nav {
   padding: 0 20px;
 }
 
-
+.searchIcon {
+  height: 30px;
+  width: auto;
+  margin-top: 5px;
+}
 
 /* HEADER + NAV SLUTTER */
