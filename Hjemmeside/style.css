@@ -5,28 +5,33 @@
 
 .navContainer {
   background-color: #159655;
+  border: none;
 }
 
 nav {
   height: 40px;
+  margin-right: 350px;
 }
 
 ul li {
   list-style: none;
   display: inline-block;
   float: right;
-  line-height: 40px;
+  line-height: 35px;
 }
 
 ul li a {
   text-decoration: none;
   color: white;
-  font-family: montserrat;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 12px;
   justify-content: space-around;
   padding: 0 20px;
+}
 
+ul li a:hover {
+  color: lightgrey;
+  text-decoration: underline;
 }
 
 .underline1 {
@@ -34,4 +39,9 @@ ul li a {
   height: 1px;
   background: white;
   border: none;
+  opacity: 50%;
+}
+
+ul {
+  float: right;
 }
