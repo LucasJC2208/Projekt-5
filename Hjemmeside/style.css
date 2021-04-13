@@ -114,8 +114,7 @@ h1 {
 .firkant {
   width: 40px;
   height: 40px;
-  background-color:#159655;
-  margin-left: 900px; 
+  background-color: #159655;
+  margin-left: 900px;
   transform: rotate(45deg);
-  margin-bottom: 30px;
 }
