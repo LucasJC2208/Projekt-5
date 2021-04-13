@@ -110,3 +110,12 @@ h1 {
   font-size: 15px;
   margin-left: 500px;
 }
+
+.firkant {
+  width: 40px;
+  height: 40px;
+  background-color:#159655;
+  margin-left: 900px; 
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+}
