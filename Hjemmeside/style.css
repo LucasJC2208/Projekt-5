@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
