@@ -16,5 +16,11 @@ ul li {
 ul li a {
   text-decoration: none;
   color: black;
+<<<<<<< HEAD
   font-family: montserrat;
+=======
+  letter-spacing: 4px;
+  font-size: 10px;
+  justify-content: space-around;
+>>>>>>> 7cb189225f26ad34a268031cd2537b06f1a7cd4a
 }
