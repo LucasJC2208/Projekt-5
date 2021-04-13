@@ -3,11 +3,12 @@
   padding: 0;
 }
 
-/* HEADER + NAV STARTER */
+/* NAV STARTER */
 
 .navContainer {
   background-color: #159655;
   border: none;
+  height: 350px;
 }
 
 nav {
@@ -46,7 +47,7 @@ nav {
 
 .navSubMenu {
   background-color: #159655;
-  height: 100px;
+  height: 75px;
   width: auto;
   margin-right: 360px;
 }
@@ -55,14 +56,14 @@ nav {
   list-style: none;
   display: inline-block;
   float: right;
-  line-height: 35px;
+  line-height: 75px;
 }
 
 .navSubMenu ul li a {
   text-decoration: none;
   color: white;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 15px;
   justify-content: space-around;
   padding: 0 20px;
 }
@@ -70,7 +71,42 @@ nav {
 .searchIcon {
   height: 30px;
   width: auto;
-  margin-top: 5px;
+  margin: 20px 0 0 15px;
 }
 
-/* HEADER + NAV SLUTTER */
+.currentPage {
+  text-decoration: underline;
+}
+
+.navSubMenu ul li a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+/* NAV SLUTTER */
+
+/* HEADER STARTER */
+
+h1 {
+  font-size: 40px;
+  color: white;
+  margin: 40px 0 0 500px;
+}
+
+.underTitle1 {
+  color: white;
+  font-size: 15px;
+  margin: 20px 0 0 500px;
+}
+
+.underTitle2 {
+  color: white;
+  font-size: 15px;
+  margin: 20px 0 0 500px;
+}
+
+.underTitle3 {
+  color: white;
+  font-size: 15px;
+  margin-left: 500px;
+}
