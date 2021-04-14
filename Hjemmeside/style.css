@@ -137,14 +137,34 @@ nav {
   margin-top: 80px;
 }
 
+.testContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 .testHeader {
   font-size: 45px;
   color: black;
-  display: grid;
-  
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.testBodyText {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 
 .takeTestImage {
   width: 400px;
   height: auto;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.btnTest {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 100px;
+  height: 30px;
 }
