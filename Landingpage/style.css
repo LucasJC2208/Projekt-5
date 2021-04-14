@@ -243,6 +243,42 @@
     ". . . . . . . . . . . . . . . . . . . . . . ."
     ". . . . . FUGLElogo FUGLEtext FUGLEtext FUGLEtext FUGLEtext arrow5 . . FACADElogo FACADEtext FACADEtext FACADEtext FACADEtext arrow6  . . . . ."
     ". . . . . . . . . . . . . . . . . . . . . . .";}
+
+.FUGLElogo {
+  grid-area: FUGLElogo;
+  grid-row: 2 / 3;
+  grid-column: 5 / 6;
+}
+
+.FUGLEtext {
+  grid-area: FUGLEtext;
+  grid-row: 2 / 3;
+  grid-column: 6 / 10;
+}
+
+.arrow5 {
+  grid-area: arrow5;
+  grid-row: 2 / 3;
+  grid-column: 10 / 11;
+}
+
+.FACADElogo {
+  grid-area: FACADElogo;
+  grid-row: 2 / 3;
+  grid-column: 13 / 14;
+}
+
+.FACADEtext {
+  grid-area: FACADEtext;
+  grid-row: 2 / 3;
+  grid-column: 14 / 18;
+}
+
+.arrow6 {
+  grid-area: arrow6;
+  grid-row: 2 / 3;
+  grid-column: 18 / 19;
+}
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
 
   /*INDHOLD UNDER HEADER SLUT*/
