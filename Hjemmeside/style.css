@@ -149,8 +149,12 @@ nav {
   height: auto;
 }
 
+.btnTest {
+background-color: #E54C5E;
+}
+
 .btnTest:hover {
   cursor: pointer;
-  background-color: #E54C5E;
+  background-color: #FC2A43;
   transition: all 0.3s ease;
 }
