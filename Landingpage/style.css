@@ -140,19 +140,20 @@
 
 }
 
+/*SEKTION 1 (TUBA OG VENTILEN) START*/
 .sektion1 {
   display: grid;
   grid-template-columns: repeat(23, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
     ". . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . TUBAlogo TUBAtext TUBAtext TUBAtext TUBAtext arrow1 . . ventilenlogo ventilentext ventilentext ventilentext ventilentext arrow2  . . . . ."
+    ". . . . . TUBAlogo TUBAtext TUBAtext TUBAtext TUBAtext arrow1 . . ventilenlogo ventilentext ventilentext ventilentext ventilentext arrow1  . . . . ."
     ". . . . . . . . . . . . . . . . . . . . . . .";}
 
-  .TUBAlogo {
-    grid-area: TUBAlogo;
-    grid-row: 2 / 3;
-    grid-column: 5 / 6;
+.TUBAlogo {
+  grid-area: TUBAlogo;
+  grid-row: 2 / 3;
+  grid-column: 5 / 6;
   }
 
 .TUBAtext {
@@ -166,4 +167,82 @@
   grid-row: 2 / 3;
   grid-column: 10 / 11;
 }
+
+.ventilenlogo {
+  grid-area: ventilenlogo;
+  grid-row: 2 / 3;
+  grid-column: 13 / 14;
+}
+
+.ventilentext {
+  grid-area: ventilentext;
+  grid-row: 2 / 3;
+  grid-column: 14 / 18;
+}
+
+.arrow2 {
+  grid-area: arrow2;
+  grid-row: 2 / 3;
+  grid-column: 18 / 19;
+}
+/*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
+
+/*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) START*/
+.sektion2 {
+  display: grid;
+  grid-template-columns: repeat(23, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . PSYKlogo PSYKtext PSYKtext PSYKtext PSYKtext arrow3 . . BORNTLFlogo BORNTLFtext BORNTLFtext BORNTLFtext BORNTLFtext arrow4  . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . .";}
+
+.PSYKlogo {
+  grid-area: PSYKlogo;
+  grid-row: 2 / 3;
+  grid-column: 5 / 6;
+}
+
+.PSYKtext {
+  grid-area: PSYKtext;
+  grid-row: 2 / 3;
+  grid-column: 6 / 10;
+}
+
+.arrow3 {
+  grid-area: arrow3;
+  grid-row: 2 / 3;
+  grid-column: 10 / 11;
+}
+
+.BORNTLFlogo {
+  grid-area: BORNTLFlogo;
+  grid-row: 2 / 3;
+  grid-column: 13 / 14;
+}
+
+.BORNTLFtext {
+  grid-area: BORNTLFtext;
+  grid-row: 2 / 3;
+  grid-column: 14 / 18;
+}
+
+.arrow4 {
+  grid-area: arrow4;
+  grid-row: 2 / 3;
+  grid-column: 18 / 19;
+}
+/*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
+
+/*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) START*/
+.sektion3 {
+  display: grid;
+  grid-template-columns: repeat(23, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . FUGLElogo FUGLEtext FUGLEtext FUGLEtext FUGLEtext arrow5 . . FACADElogo FACADEtext FACADEtext FACADEtext FACADEtext arrow6  . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . .";}
+/*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
+
   /*INDHOLD UNDER HEADER SLUT*/
