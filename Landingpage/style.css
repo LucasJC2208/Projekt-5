@@ -156,6 +156,11 @@
   grid-column: 5 / 6;
   }
 
+.TUBAlogopic {
+  width: 80%;
+  height: auto;
+}
+
 .TUBAtext {
   grid-area: TUBAtext;
   grid-row: 2 / 3;
@@ -172,6 +177,12 @@
   grid-area: ventilenlogo;
   grid-row: 2 / 3;
   grid-column: 13 / 14;
+}
+
+.ventilenlogopic {
+  width: 80%;
+  height: auto;
+  align-self: center;
 }
 
 .ventilentext {
@@ -201,6 +212,14 @@
   grid-area: PSYKlogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+.PSYKlogopic {
+  width: 80%;
+  height: auto;
 }
 
 .PSYKtext {
@@ -219,6 +238,14 @@
   grid-area: BORNTLFlogo;
   grid-row: 2 / 3;
   grid-column: 13 / 14;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+.BORNTLFlogopic {
+  width: 80%;
+  height: auto;
 }
 
 .BORNTLFtext {
@@ -248,6 +275,14 @@
   grid-area: FUGLElogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+.FUGLElogopic {
+  width: 80%;
+  height: auto;
 }
 
 .FUGLEtext {
@@ -266,6 +301,14 @@
   grid-area: FACADElogo;
   grid-row: 2 / 3;
   grid-column: 13 / 14;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+
+.FACADElogopic {
+  height: auto;
+  width: 60%;
 }
 
 .FACADEtext {
