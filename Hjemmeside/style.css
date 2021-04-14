@@ -141,10 +141,16 @@ nav {
   font-size: 45px;
   color: black;
   display: grid;
-  
+
 }
 
 .takeTestImage {
   width: 400px;
   height: auto;
+}
+
+.btnTest:hover {
+  cursor: pointer;
+  background-color: #E54C5E;
+  transition: all 0.3s ease;
 }
