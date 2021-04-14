@@ -146,6 +146,7 @@ nav {
 .testHeader {
   font-size: 45px;
   color: black;
+<<<<<<< HEAD
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
@@ -153,6 +154,10 @@ nav {
 .testBodyText {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+=======
+  display: grid;
+
+>>>>>>> 6fd561ab57b5670da5b9a75d3fe2de60af3a1b0a
 }
 
 .takeTestImage {
@@ -167,4 +172,14 @@ nav {
   grid-row: 2 / 3;
   width: 100px;
   height: 30px;
+}
+
+.btnTest {
+background-color: #E54C5E;
+}
+
+.btnTest:hover {
+  cursor: pointer;
+  background-color: #FC2A43;
+  transition: all 0.3s ease;
 }
