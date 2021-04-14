@@ -2,27 +2,27 @@
     margin: 0;
     padding: 0;
   }
-  
+
   /* NAV STARTER */
-  
+
   .navContainer {
     background-color: #159655;
     border: none;
     height: 410px;
   }
-  
+
   nav {
     height: 40px;
     margin-right: 350px;
   }
-  
+
   .menu ul li {
     list-style: none;
     display: inline-block;
     float: right;
     line-height: 35px;
   }
-  
+
   .menu ul li a {
     text-decoration: none;
     color: white;
@@ -31,12 +31,12 @@
     justify-content: space-around;
     padding: 0 20px;
   }
-  
+
   .menu ul li a:hover {
     color: lightgrey;
     text-decoration: underline;
   }
-  
+
   .underline1 {
     width: auto;
     height: 1px;
@@ -44,21 +44,21 @@
     border: none;
     opacity: 50%;
   }
-  
+
   .navSubMenu {
     background-color: #159655;
     height: 75px;
     width: auto;
     margin-right: 360px;
   }
-  
+
   .navSubMenu ul li {
     list-style: none;
     display: inline-block;
     float: right;
     line-height: 75px;
   }
-  
+
   .navSubMenu ul li a {
     text-decoration: none;
     color: white;
@@ -67,56 +67,56 @@
     justify-content: space-around;
     padding: 0 20px;
   }
-  
+
   .searchIcon {
     height: 30px;
     width: auto;
     margin: 20px 0 0 15px;
   }
-  
+
   .currentPage {
     text-decoration: underline;
   }
-  
+
   .navSubMenu ul li a:hover {
     color: lightgrey;
     text-decoration: underline;
   }
-  
+
   /* NAV SLUTTER */
-  
+
   /* HEADER STARTER */
-  
+
   h1 {
     font-size: 45px;
     color: white;
     margin: 40px 0 0 425px;
   }
-  
+
   .underTitle1 {
     color: white;
     font-size: 15px;
     margin: 20px 0 0 425px;
   }
-  
+
   .underTitle2 {
     color: white;
     font-size: 15px;
     margin: 20px 0 0 425px;
   }
-  
+
   .underTitle3 {
     color: white;
     font-size: 15px;
     margin-left: 425px;
   }
-  
+
   .underTitle4 {
     color: white;
     font-size: 15px;
     margin-left: 425px;
   }
-  
+
   .firkant {
     width: 40px;
     height: 40px;
@@ -124,7 +124,7 @@
     margin: auto;
     transform: rotate(45deg);
   }
-  
+
   .underline2 {
     width: 1075px;
     height: 1px;
@@ -133,3 +133,37 @@
     margin: auto;
     margin-top: 80px;
   }
+
+  /*INDHOLD UNDER HEADER START*/
+
+.grid-system {
+
+}
+
+.sektion1 {
+  display: grid;
+  grid-template-columns: repeat(23, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . TUBAlogo TUBAtext TUBAtext TUBAtext TUBAtext arrow1 . . ventilenlogo ventilentext ventilentext ventilentext ventilentext arrow2  . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . .";}
+
+  .TUBAlogo {
+    grid-area: TUBAlogo;
+    grid-row: 2 / 3;
+    grid-column: 5 / 6;
+  }
+
+.TUBAtext {
+  grid-area: TUBAtext;
+  grid-row: 2 / 3;
+  grid-column: 6 / 10;
+}
+
+.arrow1 {
+  grid-area: arrow1;
+  grid-row: 2 / 3;
+  grid-column: 10 / 11;
+}
+  /*INDHOLD UNDER HEADER SLUT*/
