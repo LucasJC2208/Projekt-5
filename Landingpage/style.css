@@ -185,6 +185,11 @@ nav {
   text-align: center;
 }
 
+.arrow1pic {
+  width: 80%;
+  height: auto;
+}
+
 .ventilenlogo {
   grid-area: ventilenlogo;
   grid-row: 2 / 3;
@@ -210,6 +215,11 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+}
+
+.arrow2pic {
+  width: 80%;
+  height: auto;
 }
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
 
@@ -250,6 +260,11 @@ nav {
   text-align: center;
 }
 
+.arrow3pic {
+  width: 80%;
+  height: auto;
+}
+
 .BORNTLFlogo {
   grid-area: BORNTLFlogo;
   grid-row: 2 / 3;
@@ -274,6 +289,11 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+}
+
+.arrow4pic {
+  width: 80%;
+  height: auto;
 }
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
 
@@ -314,6 +334,11 @@ nav {
   text-align: center;
 }
 
+.arrow5pic {
+  width: 80%;
+  height: auto;
+}
+
 .FACADElogo {
   grid-area: FACADElogo;
   grid-row: 2 / 3;
@@ -338,6 +363,11 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+}
+
+.arrow6pic {
+  width: 80%;
+  height: auto;
 }
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
 
