@@ -124,6 +124,29 @@ nav {
   transform: rotate(45deg);
 }
 
+/* HEADER SLUTTER */
+
+/* MEDIA QUERIE FOR BÆRBAR*/
+
+@media screen and (max-width: 1900px) {
+  body {
+    background-color: blue;
+  }
+
+  .navSubMenu {
+    margin: 1% 15% 0 0;
+  }
+
+  .navSubMenu ul li a {
+    font-size: 75%;
+  }
+
+  .searchIcon {
+    height: 2rem;
+    width: auto;
+    margin: 0.5rem 0 0 1rem;
+  }
+}
   /*INDHOLD UNDER HEADER START*/
 
 .grid-system {
