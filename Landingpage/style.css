@@ -145,8 +145,22 @@ nav {
 }
   /*INDHOLD UNDER HEADER START*/
 
-.grid-system {
-}
+  .underline2 {
+    width: 65%;
+    height: 0.05rem;
+    background: black;
+    border: none;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .underline3 {
+    width: 65%;
+    height: 0.05rem;
+    background: black;
+    border: none;
+    margin: auto;
+  }
 
 /*SEKTION 1 (TUBA OG VENTILEN) START*/
 .sektion1 {
