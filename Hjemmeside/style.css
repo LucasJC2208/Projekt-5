@@ -129,10 +129,6 @@ nav {
 /* MEDIA QUERIE FOR BÆRBAR */
 
 @media screen and (max-width: 1900px) {
-  body {
-    background-color: blue;
-  }
-
   .navSubMenu {
     margin: 1% 15% 0 0;
   }
@@ -153,7 +149,7 @@ nav {
 /* INDHOLD UNDER HEADER STARTER */
 
 .underline2 {
-  width: 59%;
+  width: 65%;
   height: 0.05rem;
   background: black;
   border: none;
@@ -161,62 +157,78 @@ nav {
   margin-top: 5%;
 }
 
-/* GRID 1 STARTER */
+/* GRID SYSTEM START*/
 
-.testContainer1 {
+.grid-system-test {
+  margin-top: -6%;
+  margin-bottom: -15%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-content: space-around;
+  grid-template-columns: repeat(23, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    ". . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . titletext-test titletext-test . . . . . . test-img test-img test-img test-img test-img . . . . ."
+    ". . . . . titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test . test-img test-img test-img test-img test-img . . . . ."
+    ". . . . . titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test . test-img test-img test-img test-img test-img . . . . ."
+    ". . . . . titletext-test titletext-test . . . . . . test-button test-button test-button test-button test-button . . . . ."
+;}
+
+.titletext-test {
+  grid-area: title-test;
+  grid-row: 2 / 5;
+  grid-column: 5 / 13;
 }
 
-.testHeader {
-  font-size: 280%;
-  color: black;
-  grid-column:
-  grid-row:
+.title-text {
+  font-size: 250%;
 }
 
-.testBodyText {
-  grid-column:
-  grid-row:
+.test-text {
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
 }
 
-/* GRID 1 SLUTTER */
-
-/* GRID 2 STARTER */
-
-.testContainer2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-content: space-between;
+.test-img {
+  grid-area: test-img;
+  grid-row: 2 / 4;
+  grid-column: 14 / 20;
+  margin-top: 3%;
 }
 
-.takeTestImage {
-  width: 30%;
-  height: auto;
-  grid-column:
-  grid-row:
-}
-
-.btnTest {
+.test-img1 {
   width: 100%;
-  height: 2rem;
-  grid-column:
-  grid-row:
+  height: auto;
+  margin-bottom: 1rem;
 }
 
-.btnTest {
-background-color: #E54C5E;
+.test-button {
+  grid-area: test-button;
+  grid-row: 4 / 5;
+  grid-column: 14 / 19;
+  background-color: #E54C5E;
+  height: 40%;
+  width: 120%;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.2s ease;
+  margin-top: 4%;
 }
 
-.btnTest:hover {
-  cursor: pointer;
+.test-button b {
+  font-size: 130%;
+  color: white;
+}
+
+.test-button:hover {
   background-color: #FC2A43;
-  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-/* GRID 2 SLUTTER */
+/* GRID SYSTEM SLUT */
+
+/* KNAP */
+
+
+/* KNAP SLUT */
 
 /* INDHOLD UNDER HEADER SÆUTTER */
