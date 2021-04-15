@@ -124,6 +124,25 @@ nav {
   transform: rotate(45deg);
 }
 
+/* HEADER SLUTTER */
+
+/* MEDIA QUERIE FOR BÆRBAR*/
+
+@media screen and (max-width: 1900px) {
+  .navSubMenu {
+    margin: 1% 15% 0 0;
+  }
+
+  .navSubMenu ul li a {
+    font-size: 75%;
+  }
+
+  .searchIcon {
+    height: 2rem;
+    width: auto;
+    margin: 0.5rem 0 0 1rem;
+  }
+}
   /*INDHOLD UNDER HEADER START*/
 
 .grid-system {
@@ -166,6 +185,11 @@ nav {
   text-align: center;
 }
 
+.arrow1pic {
+  width: 80%;
+  height: auto;
+}
+
 .ventilenlogo {
   grid-area: ventilenlogo;
   grid-row: 2 / 3;
@@ -191,6 +215,11 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+}
+
+.arrow2pic {
+  width: 80%;
+  height: auto;
 }
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
 
@@ -231,6 +260,11 @@ nav {
   text-align: center;
 }
 
+.arrow3pic {
+  width: 80%;
+  height: auto;
+}
+
 .BORNTLFlogo {
   grid-area: BORNTLFlogo;
   grid-row: 2 / 3;
@@ -255,6 +289,11 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+}
+
+.arrow4pic {
+  width: 80%;
+  height: auto;
 }
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
 
@@ -295,6 +334,11 @@ nav {
   text-align: center;
 }
 
+.arrow5pic {
+  width: 80%;
+  height: auto;
+}
+
 .FACADElogo {
   grid-area: FACADElogo;
   grid-row: 2 / 3;
@@ -319,6 +363,11 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+}
+
+.arrow6pic {
+  width: 80%;
+  height: auto;
 }
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
 
