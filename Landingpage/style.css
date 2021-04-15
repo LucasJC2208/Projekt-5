@@ -146,20 +146,22 @@ nav {
   /*INDHOLD UNDER HEADER START*/
 
   .underline2 {
-    width: 65%;
+    width: 75%;
     height: 0.05rem;
     background: black;
     border: none;
     margin: auto;
     margin-top: 5%;
+    margin-bottom: -1%;
   }
 
   .underline3 {
-    width: 65%;
+    width: 75%;
     height: 0.05rem;
     background: black;
     border: none;
     margin: auto;
+    margin-bottom: 5%;
   }
 
 /*SEKTION 1 (TUBA OG VENTILEN) START*/
