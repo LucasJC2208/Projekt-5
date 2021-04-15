@@ -9,7 +9,7 @@
 .navContainer {
   background-color: #159655;
   border: none;
-  height: 28rem;
+  height: 29rem;
 }
 
 nav {
@@ -157,6 +157,10 @@ nav {
     ". . . . . . . . . . . . . . . . . . . . . . ."
     ". . . . . TUBAlogo TUBAtext TUBAtext TUBAtext TUBAtext btnArrow1 . . ventilenlogo ventilentext ventilentext ventilentext ventilentext btnArrow2  . . . . ."
     ". . . . . . . . . . . . . . . . . . . . . . .";}
+
+p {
+  line-height: 1.5rem;
+}
 
 .TUBAlogo {
   grid-area: TUBAlogo;
