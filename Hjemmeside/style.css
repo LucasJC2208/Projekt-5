@@ -137,8 +137,13 @@ nav {
   margin-top: 5%;
 }
 
+/* GRID 1 STARTER */
+
 .testContainer1 {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-around;
 }
 
 .testHeader {
@@ -153,8 +158,19 @@ nav {
   grid-row:
 }
 
+/* GRID 1 SLUTTER */
+
+/* GRID 2 STARTER */
+
+.testContainer2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+}
+
 .takeTestImage {
-  width: 150%;
+  width: 30%;
   height: auto;
   grid-column:
   grid-row:
@@ -176,3 +192,5 @@ background-color: #E54C5E;
   background-color: #FC2A43;
   transition: all 0.3s ease;
 }
+
+/* GRID 2 SLUTTER */
