@@ -183,10 +183,12 @@ nav {
   grid-row: 2 / 3;
   grid-column: 11 / 12;
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .arrow1pic {
-  width: 80%;
+  width: 40%;
   height: auto;
 }
 
@@ -215,10 +217,12 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .arrow2pic {
-  width: 80%;
+  width: 40%;
   height: auto;
 }
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
@@ -258,10 +262,12 @@ nav {
   grid-row: 2 / 3;
   grid-column: 11 / 12;
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .arrow3pic {
-  width: 80%;
+  width: 40%;
   height: auto;
 }
 
@@ -289,10 +295,12 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .arrow4pic {
-  width: 80%;
+  width: 40%;
   height: auto;
 }
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
@@ -332,10 +340,12 @@ nav {
   grid-row: 2 / 3;
   grid-column: 11 / 12;
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .arrow5pic {
-  width: 80%;
+  width: 40%;
   height: auto;
 }
 
@@ -363,10 +373,12 @@ nav {
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .arrow6pic {
-  width: 80%;
+  width: 40%;
   height: auto;
 }
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
