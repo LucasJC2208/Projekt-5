@@ -155,7 +155,7 @@ nav {
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
     ". . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . TUBAlogo TUBAtext TUBAtext TUBAtext TUBAtext arrow1 . . ventilenlogo ventilentext ventilentext ventilentext ventilentext arrow1  . . . . ."
+    ". . . . . TUBAlogo TUBAtext TUBAtext TUBAtext TUBAtext btnArrow1 . . ventilenlogo ventilentext ventilentext ventilentext ventilentext btnArrow2  . . . . ."
     ". . . . . . . . . . . . . . . . . . . . . . .";}
 
 .TUBAlogo {
@@ -178,18 +178,28 @@ nav {
   grid-column: 6 / 11;
 }
 
-.arrow1 {
-  grid-area: arrow1;
+.btnArrow1 {
+  grid-area: btnArrow1;
   grid-row: 2 / 3;
   grid-column: 11 / 12;
   text-align: center;
-  margin: auto;
   display: block;
+  margin: auto;
+  border: none;
+  background-color: white;
 }
 
 .arrow1pic {
   width: 40%;
   height: auto;
+}
+
+.btnArrow1:hover {
+  background-color: #D0EBDE;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .ventilenlogo {
@@ -212,19 +222,29 @@ nav {
   grid-column: 15 / 20;
 }
 
-.arrow2 {
-  grid-area: arrow2;
+.btnArrow2 {
+  grid-area: btnArrow2;
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
-  margin: auto;
   display: block;
+  margin: auto;
+  border: none;
+  background-color: white;
 }
 
 .arrow2pic {
   width: 40%;
   height: auto;
 }
+
+.btnArrow2:hover {
+  background-color: #D0EBDE;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
 
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) START*/
@@ -234,7 +254,7 @@ nav {
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
     ". . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . PSYKlogo PSYKtext PSYKtext PSYKtext PSYKtext arrow3 . . BORNTLFlogo BORNTLFtext BORNTLFtext BORNTLFtext BORNTLFtext arrow4  . . . . ."
+    ". . . . . PSYKlogo PSYKtext PSYKtext PSYKtext PSYKtext btnArrow3 . . BORNTLFlogo BORNTLFtext BORNTLFtext BORNTLFtext BORNTLFtext btnArrow4  . . . . ."
     ". . . . . . . . . . . . . . . . . . . . . . .";}
 
 .PSYKlogo {
@@ -257,18 +277,27 @@ nav {
   grid-column: 6 / 11;
 }
 
-.arrow3 {
-  grid-area: arrow3;
+.btnArrow3 {
+  grid-area: btnArrow3;
   grid-row: 2 / 3;
   grid-column: 11 / 12;
   text-align: center;
-  margin: auto;
   display: block;
+  margin: auto;
+  border: none;
+  background-color: white;
 }
 
 .arrow3pic {
   width: 40%;
   height: auto;
+}
+
+.btnArrow3:hover {
+  background-color: #D0EBDE;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
 }
 
 .BORNTLFlogo {
@@ -290,19 +319,29 @@ nav {
   grid-column: 15 / 20;
 }
 
-.arrow4 {
-  grid-area: arrow4;
+.btnArrow4 {
+  grid-area: btnArrow4;
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
-  margin: auto;
   display: block;
+  margin: auto;
+  border: none;
+  background-color: white;
 }
 
 .arrow4pic {
   width: 40%;
   height: auto;
 }
+
+.btnArrow4:hover {
+  background-color: #D0EBDE;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
 
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) START*/
@@ -312,7 +351,7 @@ nav {
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas:
     ". . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . FUGLElogo FUGLEtext FUGLEtext FUGLEtext FUGLEtext arrow5 . . FACADElogo FACADEtext FACADEtext FACADEtext FACADEtext arrow6  . . . . ."
+    ". . . . . FUGLElogo FUGLEtext FUGLEtext FUGLEtext FUGLEtext btnArrow5 . . FACADElogo FACADEtext FACADEtext FACADEtext FACADEtext btnArrow6  . . . . ."
     ". . . . . . . . . . . . . . . . . . . . . . .";}
 
 .FUGLElogo {
@@ -335,18 +374,27 @@ nav {
   grid-column: 6 / 11;
 }
 
-.arrow5 {
-  grid-area: arrow5;
+.btnArrow5 {
+  grid-area: btnArrow5;
   grid-row: 2 / 3;
   grid-column: 11 / 12;
   text-align: center;
-  margin: auto;
   display: block;
+  margin: auto;
+  border: none;
+  background-color: white;
 }
 
 .arrow5pic {
   width: 40%;
   height: auto;
+}
+
+.btnArrow5:hover {
+  background-color: #D0EBDE;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
 }
 
 .FACADElogo {
@@ -368,19 +416,29 @@ nav {
   grid-column: 15 / 20;
 }
 
-.arrow6 {
-  grid-area: arrow6;
+.btnArrow6 {
+  grid-area: btnArrow6;
   grid-row: 2 / 3;
   grid-column: 20 / 21;
   text-align: center;
-  margin: auto;
   display: block;
+  margin: auto;
+  border: none;
+  background-color: white;
 }
 
 .arrow6pic {
   width: 40%;
   height: auto;
 }
+
+.btnArrow6:hover {
+  background-color: #D0EBDE;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
 
   /*INDHOLD UNDER HEADER SLUT*/
