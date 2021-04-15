@@ -149,7 +149,7 @@ nav {
 /* INDHOLD UNDER HEADER STARTER */
 
 .underline2 {
-  width: 59%;
+  width: 65%;
   height: 0.05rem;
   background: black;
   border: none;
@@ -160,16 +160,18 @@ nav {
 /* GRID SYSTEM START*/
 
 .grid-system-test {
+  margin-top: -6%;
+  margin-bottom: -15%;
   display: grid;
   grid-template-columns: repeat(23, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     ". . . . . . . . . . . . . . . . . . . . . . ."
     ". . . . . titletext-test titletext-test . . . . . . test-img test-img test-img test-img test-img . . . . ."
     ". . . . . titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test . test-img test-img test-img test-img test-img . . . . ."
     ". . . . . titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test titletext-test . test-img test-img test-img test-img test-img . . . . ."
     ". . . . . titletext-test titletext-test . . . . . . test-button test-button test-button test-button test-button . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . .";}
+;}
 
 .titletext-test {
   grid-area: title-test;
@@ -190,11 +192,13 @@ nav {
   grid-area: test-img;
   grid-row: 2 / 4;
   grid-column: 14 / 20;
+  margin-top: 3%;
 }
 
 .test-img1 {
-  width: 80%;
+  width: 100%;
   height: auto;
+  margin-bottom: 1rem;
 }
 
 .test-button {
@@ -203,10 +207,16 @@ nav {
   grid-column: 14 / 19;
   background-color: #E54C5E;
   height: 40%;
-  width: auto;
+  width: 120%;
   border-radius: 30px;
   border: none;
   transition: all 0.2s ease;
+  margin-top: 4%;
+}
+
+.test-button b {
+  font-size: 130%;
+  color: white;
 }
 
 .test-button:hover {
