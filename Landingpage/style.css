@@ -197,7 +197,7 @@ nav {
 .btnArrow1:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -241,8 +241,9 @@ nav {
 .btnArrow2:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
@@ -296,8 +297,9 @@ nav {
 .btnArrow3:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .BORNTLFlogo {
@@ -338,8 +340,9 @@ nav {
 .btnArrow4:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
@@ -393,8 +396,9 @@ nav {
 .btnArrow5:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .FACADElogo {
@@ -435,8 +439,9 @@ nav {
 .btnArrow6:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
