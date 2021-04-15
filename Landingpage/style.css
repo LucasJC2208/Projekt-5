@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
   }
 
   /* NAV STARTER */
@@ -137,7 +138,6 @@
   /*INDHOLD UNDER HEADER START*/
 
 .grid-system {
-
 }
 
 /*SEKTION 1 (TUBA OG VENTILEN) START*/
@@ -154,6 +154,9 @@
   grid-area: TUBAlogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
+  text-align: center;
+  margin: auto;
+  display: block;
   }
 
 .TUBAlogopic {
@@ -171,30 +174,34 @@
   grid-area: arrow1;
   grid-row: 2 / 3;
   grid-column: 10 / 11;
+  text-align: center;
 }
 
 .ventilenlogo {
   grid-area: ventilenlogo;
   grid-row: 2 / 3;
-  grid-column: 13 / 14;
+  grid-column: 14 / 15;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .ventilenlogopic {
-  width: 80%;
+  width: 70%;
   height: auto;
-  align-self: center;
 }
 
 .ventilentext {
   grid-area: ventilentext;
   grid-row: 2 / 3;
-  grid-column: 14 / 18;
+  grid-column: 15 / 19;
 }
 
 .arrow2 {
   grid-area: arrow2;
   grid-row: 2 / 3;
-  grid-column: 18 / 19;
+  grid-column: 19 / 20;
+  text-align: center;
 }
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
 
@@ -212,9 +219,9 @@
   grid-area: PSYKlogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .PSYKlogopic {
@@ -232,32 +239,33 @@
   grid-area: arrow3;
   grid-row: 2 / 3;
   grid-column: 10 / 11;
+  text-align: center;
 }
 
 .BORNTLFlogo {
   grid-area: BORNTLFlogo;
   grid-row: 2 / 3;
-  grid-column: 13 / 14;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  grid-column: 14 / 15;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .BORNTLFlogopic {
   width: 80%;
-  height: auto;
 }
 
 .BORNTLFtext {
   grid-area: BORNTLFtext;
   grid-row: 2 / 3;
-  grid-column: 14 / 18;
+  grid-column: 15 / 19;
 }
 
 .arrow4 {
   grid-area: arrow4;
   grid-row: 2 / 3;
-  grid-column: 18 / 19;
+  grid-column: 19 / 20;
+  text-align: center;
 }
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
 
@@ -275,13 +283,13 @@
   grid-area: FUGLElogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .FUGLElogopic {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
@@ -295,32 +303,33 @@
   grid-area: arrow5;
   grid-row: 2 / 3;
   grid-column: 10 / 11;
+  text-align: center;
 }
 
 .FACADElogo {
   grid-area: FACADElogo;
   grid-row: 2 / 3;
-  grid-column: 13 / 14;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  grid-column: 14 / 15;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .FACADElogopic {
-  height: auto;
   width: 60%;
 }
 
 .FACADEtext {
   grid-area: FACADEtext;
   grid-row: 2 / 3;
-  grid-column: 14 / 18;
+  grid-column: 15 / 19;
 }
 
 .arrow6 {
   grid-area: arrow6;
   grid-row: 2 / 3;
-  grid-column: 18 / 19;
+  grid-column: 19 / 20;
+  text-align: center;
 }
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
 
