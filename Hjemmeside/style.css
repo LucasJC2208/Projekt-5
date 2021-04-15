@@ -132,6 +132,9 @@ nav {
   body {
     background-color: blue;
   }
+  .navSubMenu {
+    margin: 1% 1% 0 0;
+  }
 }
 
 /* INDHOLD TIL TEST STARTER */
