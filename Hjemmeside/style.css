@@ -132,8 +132,19 @@ nav {
   body {
     background-color: blue;
   }
+
   .navSubMenu {
     margin: 1% 10% 0 0;
+  }
+
+  .navSubMenu ul li a {
+    font-size: 75%;
+  }
+
+  .searchIcon {
+    height: 2rem;
+    width: auto;
+    margin: 0.5rem 0 0 1rem;
   }
 }
 
