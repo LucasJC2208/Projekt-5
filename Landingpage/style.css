@@ -1,130 +1,140 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif
-}
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
 
-/* NAV STARTER */
+  /* NAV STARTER */
 
-.navContainer {
-  background-color: #159655;
-  border: none;
-  height: 28rem;
-}
+  .navContainer {
+    background-color: #159655;
+    border: none;
+    height: 410px;
+  }
 
-nav {
-  height: 3rem;
-  margin-right: 19.5%;
-}
+  nav {
+    height: 40px;
+    margin-right: 350px;
+  }
 
-.menu ul li {
-  list-style: none;
-  display: inline-block;
-  float: right;
-  line-height: 2.85rem;
-}
+  .menu ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height: 35px;
+  }
 
-.menu ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 70%;
-  justify-content: space-around;
-  padding: 0 1rem;
-}
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 12px;
+    justify-content: space-around;
+    padding: 0 20px;
+  }
 
-.menu ul li a:hover {
-  color: lightgrey;
-  text-decoration: underline;
-}
+  .menu ul li a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+  }
 
-.underline1 {
-  width: auto;
-  height: 0.05rem;
-  background: white;
-  border: none;
-  opacity: 50%;
-}
+  .underline1 {
+    width: auto;
+    height: 1px;
+    background: white;
+    border: none;
+    opacity: 50%;
+  }
 
-.navSubMenu {
-  background-color: #159655;
-  height: 4.5rem;
-  width: auto;
-  margin: 1% 21.5% 0 0;
-}
+  .navSubMenu {
+    background-color: #159655;
+    height: 75px;
+    width: auto;
+    margin-right: 360px;
+  }
 
-.navSubMenu ul li {
-  list-style: none;
-  display: inline-block;
-  float: right;
-  line-height: 300%;
-}
+  .navSubMenu ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height: 75px;
+  }
 
-.navSubMenu ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 95%;
-  justify-content: space-around;
-  padding: 0 1rem;
-}
+  .navSubMenu ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    justify-content: space-around;
+    padding: 0 20px;
+  }
 
-.searchIcon {
-  height: 2rem;
-  width: auto;
-  margin: 0.5rem 0 0 1rem;
-}
+  .searchIcon {
+    height: 30px;
+    width: auto;
+    margin: 20px 0 0 15px;
+  }
 
-.currentPage {
-  text-decoration: underline;
-}
+  .currentPage {
+    text-decoration: underline;
+  }
 
-.navSubMenu ul li a:hover {
-  color: lightgrey;
-  text-decoration: underline;
-}
+  .navSubMenu ul li a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+  }
 
-/* NAV SLUTTER */
+  /* NAV SLUTTER */
 
-/* HEADER STARTER */
+  /* HEADER STARTER */
 
-.headerTitle {
-  font-size: 280%;
-  color: white;
-  margin: 3rem 0 0 20.5%;
-}
+  h1 {
+    font-size: 45px;
+    color: white;
+    margin: 40px 0 0 425px;
+  }
 
-.underTitle1 {
-  color: white;
-  font-size: 95%;
-  margin: 1rem 0 0 20.5%;
-}
+  .underTitle1 {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0 0 425px;
+  }
 
-.underTitle2 {
-  color: white;
-  font-size: 95%;
-  margin: 1rem 0 0 20.5%;
-}
+  .underTitle2 {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0 0 425px;
+  }
 
-.underTitle3 {
-  color: white;
-  font-size: 95%;
-  margin-left: 20.5%;
-}
+  .underTitle3 {
+    color: white;
+    font-size: 15px;
+    margin-left: 425px;
+  }
 
-.underTitle4 {
-  color: white;
-  font-size: 95%;
-  margin-left: 20.5%;
-}
+  .underTitle4 {
+    color: white;
+    font-size: 15px;
+    margin-left: 425px;
+  }
 
-.firkant {
-  width: 2rem;
-  height: 2rem;
-  background-color: #159655;
-  margin: auto;
-  transform: rotate(45deg);
-}
+  .firkant {
+    width: 40px;
+    height: 40px;
+    background-color: #159655;
+    margin: auto;
+    transform: rotate(45deg);
+  }
 
-/* HEADER SLUTTER */
+  .underline2 {
+    width: 1075px;
+    height: 1px;
+    background: black;
+    border: none;
+    margin: auto;
+    margin-top: 80px;
+  }
+
   /*INDHOLD UNDER HEADER START*/
 
 .grid-system {
