@@ -1,143 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif
+}
 
-  /* NAV STARTER */
+/* NAV STARTER */
 
-  .navContainer {
-    background-color: #159655;
-    border: none;
-    height: 410px;
-  }
+.navContainer {
+  background-color: #159655;
+  border: none;
+  height: 28rem;
+}
 
-  nav {
-    height: 40px;
-    margin-right: 350px;
-  }
+nav {
+  height: 3rem;
+  margin-right: 19.5%;
+}
 
-  .menu ul li {
-    list-style: none;
-    display: inline-block;
-    float: right;
-    line-height: 35px;
-  }
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  line-height: 2.85rem;
+}
 
-  .menu ul li a {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-    font-size: 12px;
-    justify-content: space-around;
-    padding: 0 20px;
-  }
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 70%;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
 
-  .menu ul li a:hover {
-    color: lightgrey;
-    text-decoration: underline;
-  }
+.menu ul li a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
 
-  .underline1 {
-    width: auto;
-    height: 1px;
-    background: white;
-    border: none;
-    opacity: 50%;
-  }
+.underline1 {
+  width: auto;
+  height: 0.05rem;
+  background: white;
+  border: none;
+  opacity: 50%;
+}
 
-  .navSubMenu {
-    background-color: #159655;
-    height: 75px;
-    width: auto;
-    margin-right: 360px;
-  }
+.navSubMenu {
+  background-color: #159655;
+  height: 4.5rem;
+  width: auto;
+  margin: 1% 21.5% 0 0;
+}
 
-  .navSubMenu ul li {
-    list-style: none;
-    display: inline-block;
-    float: right;
-    line-height: 75px;
-  }
+.navSubMenu ul li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  line-height: 300%;
+}
 
-  .navSubMenu ul li a {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-    font-size: 15px;
-    justify-content: space-around;
-    padding: 0 20px;
-  }
+.navSubMenu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 95%;
+  justify-content: space-around;
+  padding: 0 1rem;
+}
 
-  .searchIcon {
-    height: 30px;
-    width: auto;
-    margin: 20px 0 0 15px;
-  }
+.searchIcon {
+  height: 2rem;
+  width: auto;
+  margin: 0.5rem 0 0 1rem;
+}
 
-  .currentPage {
-    text-decoration: underline;
-  }
+.currentPage {
+  text-decoration: underline;
+}
 
-  .navSubMenu ul li a:hover {
-    color: lightgrey;
-    text-decoration: underline;
-  }
+.navSubMenu ul li a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
 
-  /* NAV SLUTTER */
+/* NAV SLUTTER */
 
-  /* HEADER STARTER */
+/* HEADER STARTER */
 
-  h1 {
-    font-size: 45px;
-    color: white;
-    margin: 40px 0 0 425px;
-  }
+.headerTitle {
+  font-size: 280%;
+  color: white;
+  margin: 3rem 0 0 20.5%;
+}
 
-  .underTitle1 {
-    color: white;
-    font-size: 15px;
-    margin: 20px 0 0 425px;
-  }
+.underTitle1 {
+  color: white;
+  font-size: 95%;
+  margin: 1rem 0 0 20.5%;
+}
 
-  .underTitle2 {
-    color: white;
-    font-size: 15px;
-    margin: 20px 0 0 425px;
-  }
+.underTitle2 {
+  color: white;
+  font-size: 95%;
+  margin: 1rem 0 0 20.5%;
+}
 
-  .underTitle3 {
-    color: white;
-    font-size: 15px;
-    margin-left: 425px;
-  }
+.underTitle3 {
+  color: white;
+  font-size: 95%;
+  margin-left: 20.5%;
+}
 
-  .underTitle4 {
-    color: white;
-    font-size: 15px;
-    margin-left: 425px;
-  }
+.underTitle4 {
+  color: white;
+  font-size: 95%;
+  margin-left: 20.5%;
+}
 
-  .firkant {
-    width: 40px;
-    height: 40px;
-    background-color: #159655;
-    margin: auto;
-    transform: rotate(45deg);
-  }
+.firkant {
+  width: 2rem;
+  height: 2rem;
+  background-color: #159655;
+  margin: auto;
+  transform: rotate(45deg);
+}
 
-  .underline2 {
-    width: 1075px;
-    height: 1px;
-    background: black;
-    border: none;
-    margin: auto;
-    margin-top: 80px;
-  }
-
+/* HEADER SLUTTER */
   /*INDHOLD UNDER HEADER START*/
 
 .grid-system {
-
 }
 
 /*SEKTION 1 (TUBA OG VENTILEN) START*/
@@ -154,6 +144,9 @@
   grid-area: TUBAlogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
+  text-align: center;
+  margin: auto;
+  display: block;
   }
 
 .TUBAlogopic {
@@ -164,37 +157,41 @@
 .TUBAtext {
   grid-area: TUBAtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 10;
+  grid-column: 6 / 11;
 }
 
 .arrow1 {
   grid-area: arrow1;
   grid-row: 2 / 3;
-  grid-column: 10 / 11;
+  grid-column: 11 / 12;
+  text-align: center;
 }
 
 .ventilenlogo {
   grid-area: ventilenlogo;
   grid-row: 2 / 3;
-  grid-column: 13 / 14;
+  grid-column: 14 / 15;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .ventilenlogopic {
-  width: 80%;
+  width: 70%;
   height: auto;
-  align-self: center;
 }
 
 .ventilentext {
   grid-area: ventilentext;
   grid-row: 2 / 3;
-  grid-column: 14 / 18;
+  grid-column: 15 / 20;
 }
 
 .arrow2 {
   grid-area: arrow2;
   grid-row: 2 / 3;
-  grid-column: 18 / 19;
+  grid-column: 20 / 21;
+  text-align: center;
 }
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
 
@@ -212,9 +209,9 @@
   grid-area: PSYKlogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .PSYKlogopic {
@@ -225,39 +222,40 @@
 .PSYKtext {
   grid-area: PSYKtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 10;
+  grid-column: 6 / 11;
 }
 
 .arrow3 {
   grid-area: arrow3;
   grid-row: 2 / 3;
-  grid-column: 10 / 11;
+  grid-column: 11 / 12;
+  text-align: center;
 }
 
 .BORNTLFlogo {
   grid-area: BORNTLFlogo;
   grid-row: 2 / 3;
-  grid-column: 13 / 14;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  grid-column: 14 / 15;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .BORNTLFlogopic {
   width: 80%;
-  height: auto;
 }
 
 .BORNTLFtext {
   grid-area: BORNTLFtext;
   grid-row: 2 / 3;
-  grid-column: 14 / 18;
+  grid-column: 15 / 20;
 }
 
 .arrow4 {
   grid-area: arrow4;
   grid-row: 2 / 3;
-  grid-column: 18 / 19;
+  grid-column: 20 / 21;
+  text-align: center;
 }
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
 
@@ -275,52 +273,53 @@
   grid-area: FUGLElogo;
   grid-row: 2 / 3;
   grid-column: 5 / 6;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .FUGLElogopic {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 
 .FUGLEtext {
   grid-area: FUGLEtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 10;
+  grid-column: 6 / 11;
 }
 
 .arrow5 {
   grid-area: arrow5;
   grid-row: 2 / 3;
-  grid-column: 10 / 11;
+  grid-column: 11 / 12;
+  text-align: center;
 }
 
 .FACADElogo {
   grid-area: FACADElogo;
   grid-row: 2 / 3;
-  grid-column: 13 / 14;
-  align-self: center;
-  align-items: center;
-  align-content: center;
+  grid-column: 14 / 15;
+  text-align: center;
+  margin: auto;
+  display: block;
 }
 
 .FACADElogopic {
-  height: auto;
   width: 60%;
 }
 
 .FACADEtext {
   grid-area: FACADEtext;
   grid-row: 2 / 3;
-  grid-column: 14 / 18;
+  grid-column: 15 / 20;
 }
 
 .arrow6 {
   grid-area: arrow6;
   grid-row: 2 / 3;
-  grid-column: 18 / 19;
+  grid-column: 20 / 21;
+  text-align: center;
 }
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
 
