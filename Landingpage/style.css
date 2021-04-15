@@ -167,13 +167,13 @@
 .TUBAtext {
   grid-area: TUBAtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 10;
+  grid-column: 6 / 11;
 }
 
 .arrow1 {
   grid-area: arrow1;
   grid-row: 2 / 3;
-  grid-column: 10 / 11;
+  grid-column: 11 / 12;
   text-align: center;
 }
 
@@ -194,13 +194,13 @@
 .ventilentext {
   grid-area: ventilentext;
   grid-row: 2 / 3;
-  grid-column: 15 / 19;
+  grid-column: 15 / 20;
 }
 
 .arrow2 {
   grid-area: arrow2;
   grid-row: 2 / 3;
-  grid-column: 19 / 20;
+  grid-column: 20 / 21;
   text-align: center;
 }
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
@@ -232,13 +232,13 @@
 .PSYKtext {
   grid-area: PSYKtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 10;
+  grid-column: 6 / 11;
 }
 
 .arrow3 {
   grid-area: arrow3;
   grid-row: 2 / 3;
-  grid-column: 10 / 11;
+  grid-column: 11 / 12;
   text-align: center;
 }
 
@@ -258,13 +258,13 @@
 .BORNTLFtext {
   grid-area: BORNTLFtext;
   grid-row: 2 / 3;
-  grid-column: 15 / 19;
+  grid-column: 15 / 20;
 }
 
 .arrow4 {
   grid-area: arrow4;
   grid-row: 2 / 3;
-  grid-column: 19 / 20;
+  grid-column: 20 / 21;
   text-align: center;
 }
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
@@ -296,13 +296,13 @@
 .FUGLEtext {
   grid-area: FUGLEtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 10;
+  grid-column: 6 / 11;
 }
 
 .arrow5 {
   grid-area: arrow5;
   grid-row: 2 / 3;
-  grid-column: 10 / 11;
+  grid-column: 11 / 12;
   text-align: center;
 }
 
@@ -322,13 +322,13 @@
 .FACADEtext {
   grid-area: FACADEtext;
   grid-row: 2 / 3;
-  grid-column: 15 / 19;
+  grid-column: 15 / 20;
 }
 
 .arrow6 {
   grid-area: arrow6;
   grid-row: 2 / 3;
-  grid-column: 19 / 20;
+  grid-column: 20 / 21;
   text-align: center;
 }
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
