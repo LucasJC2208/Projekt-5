@@ -9,7 +9,7 @@
 .navContainer {
   background-color: #159655;
   border: none;
-  height: 28rem;
+  height: 29rem;
 }
 
 nav {
@@ -158,6 +158,10 @@ nav {
     ". . . . . TUBAlogo TUBAtext TUBAtext TUBAtext TUBAtext btnArrow1 . . ventilenlogo ventilentext ventilentext ventilentext ventilentext btnArrow2  . . . . ."
     ". . . . . . . . . . . . . . . . . . . . . . .";}
 
+p {
+  line-height: 1.5rem;
+}
+
 .TUBAlogo {
   grid-area: TUBAlogo;
   grid-row: 2 / 3;
@@ -197,7 +201,7 @@ nav {
 .btnArrow1:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -241,8 +245,9 @@ nav {
 .btnArrow2:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*SEKTION 1 (TUBA OG VENTILEN) SLUT*/
@@ -296,8 +301,9 @@ nav {
 .btnArrow3:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .BORNTLFlogo {
@@ -338,8 +344,9 @@ nav {
 .btnArrow4:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*SEKTION 2 (PSYKIATRIFONDEN OG BØRNETELEFONEN) SLUT*/
@@ -393,8 +400,9 @@ nav {
 .btnArrow5:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .FACADElogo {
@@ -435,8 +443,9 @@ nav {
 .btnArrow6:hover {
   background-color: #D0EBDE;
   border-radius: 30px;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*SEKTION 3 (VILDEFUGLE OG BAGFACADEN) SLUT*/
