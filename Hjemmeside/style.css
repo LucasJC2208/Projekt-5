@@ -204,6 +204,14 @@ nav {
   background-color: #E54C5E;
   height: 40%;
   width: auto;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.test-button:hover {
+  background-color: #FC2A43;
+  cursor: pointer;
 }
 
 /* GRID SYSTEM SLUT */
