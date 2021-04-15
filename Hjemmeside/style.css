@@ -126,7 +126,7 @@ nav {
 
 /* HEADER SLUTTER */
 
-/* MEDIA QUERIE FOR BÆRBAR*/
+/* MEDIA QUERIE FOR BÆRBAR */
 
 @media screen and (max-width: 1900px) {
   body {
@@ -148,7 +148,9 @@ nav {
   }
 }
 
-/* INDHOLD TIL TEST STARTER */
+/* MEDIA QUERIE FOR BÆRBAR */
+
+/* INDHOLD UNDER HEADER STARTER */
 
 .underline2 {
   width: 59%;
@@ -216,3 +218,5 @@ background-color: #E54C5E;
 }
 
 /* GRID 2 SLUTTER */
+
+/* INDHOLD UNDER HEADER SÆUTTER */
