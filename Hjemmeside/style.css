@@ -129,10 +129,6 @@ nav {
 /* MEDIA QUERIE FOR BÆRBAR */
 
 @media screen and (max-width: 1900px) {
-  body {
-    background-color: blue;
-  }
-
   .navSubMenu {
     margin: 1% 15% 0 0;
   }
