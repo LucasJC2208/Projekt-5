@@ -128,7 +128,7 @@ nav {
 
 /* MEDIA QUERIE FOR BÆRBAR*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
   body {
     background-color: blue;
   }
