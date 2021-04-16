@@ -22,13 +22,9 @@ body {
   background-color: hsl(var(--hue), 100%, 20%);
 }
 
-body  {
+.venner {
     background-image: url("img/venner.png");
     background-color: #cccccc;
-}
-
-.j
-{float: right;
 }
 
 body.correct {
