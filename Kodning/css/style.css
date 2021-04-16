@@ -22,9 +22,17 @@ body {
   background-color: hsl(var(--hue), 100%, 20%);
 }
 
+<<<<<<< HEAD
 .venner {
     background-image: url("img/venner.png");
     background-color: #cccccc;
+=======
+body  {
+    background-image: url("img/venner.png");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+>>>>>>> d4805725952f4420404d97a0292e33e214b3b34f
 }
 
 body.correct {
