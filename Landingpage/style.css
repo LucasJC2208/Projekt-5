@@ -318,6 +318,7 @@ p {
   grid-area: PSYKtext;
   grid-row: 2 / 3;
   grid-column: 5 / 10;
+  margin-left: 2%;
 }
 
 .btnArrow3 {
@@ -372,6 +373,7 @@ p {
   grid-area: BORNTLFtext;
   grid-row: 2 / 3;
   grid-column: 15 / 20;
+  margin-left: 2%;
 }
 
 .btnArrow4 {
