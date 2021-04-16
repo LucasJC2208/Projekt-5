@@ -181,7 +181,7 @@ p {
 .TUBAlogo {
   grid-area: TUBAlogo;
   grid-row: 2 / 3;
-  grid-column: 5 / 6;
+  grid-column: 4 / 5;
   text-align: center;
   margin: auto;
   display: block;
@@ -195,13 +195,13 @@ p {
 .TUBAtext {
   grid-area: TUBAtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 11;
+  grid-column: 5 / 10;
 }
 
 .btnArrow1 {
   grid-area: btnArrow1;
   grid-row: 2 / 3;
-  grid-column: 11 / 12;
+  grid-column: 10 / 11;
   text-align: center;
   display: block;
   margin: auto;
@@ -225,7 +225,7 @@ p {
 .underline-tuba {
   grid-area: underline-tuba;
   grid-row: 3 / 3;
-  grid-column: 5 / 12;
+  grid-column: 4 / 11;
   width: 100%;
   height: 0.15rem;
   background: #159655;
@@ -303,7 +303,7 @@ p {
 .PSYKlogo {
   grid-area: PSYKlogo;
   grid-row: 2 / 3;
-  grid-column: 5 / 6;
+  grid-column: 4 / 5;
   text-align: center;
   margin: auto;
   display: block;
@@ -317,13 +317,13 @@ p {
 .PSYKtext {
   grid-area: PSYKtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 11;
+  grid-column: 5 / 10;
 }
 
 .btnArrow3 {
   grid-area: btnArrow3;
   grid-row: 2 / 3;
-  grid-column: 11 / 12;
+  grid-column: 10 / 11;
   text-align: center;
   display: block;
   margin: auto;
@@ -347,7 +347,7 @@ p {
 .underline-psyk {
   grid-area: underline-psyk;
   grid-row: 3 / 3;
-  grid-column: 5 / 12;
+  grid-column: 4 / 11;
   width: 100%;
   height: 0.15rem;
   background: #159655;
@@ -423,7 +423,7 @@ p {
 .FUGLElogo {
   grid-area: FUGLElogo;
   grid-row: 2 / 3;
-  grid-column: 5 / 6;
+  grid-column: 4 / 5;
   text-align: center;
   margin: auto;
   display: block;
@@ -437,13 +437,13 @@ p {
 .FUGLEtext {
   grid-area: FUGLEtext;
   grid-row: 2 / 3;
-  grid-column: 6 / 11;
+  grid-column: 5 / 10;
 }
 
 .btnArrow5 {
   grid-area: btnArrow5;
   grid-row: 2 / 3;
-  grid-column: 11 / 12;
+  grid-column: 10 / 11;
   text-align: center;
   display: block;
   margin: auto;
@@ -467,7 +467,7 @@ p {
 .underline-fugle {
   grid-area: underline-fugle;
   grid-row: 3 / 3;
-  grid-column: 5 / 12;
+  grid-column: 4 / 11;
   width: 100%;
   height: 0.15rem;
   background: #159655;
