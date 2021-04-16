@@ -1,6 +1,5 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
-const backButton = document.getElementById('back-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
@@ -13,23 +12,12 @@ startButton.addEventListener('click', startGame)
   setNextQuestion()
 })
 
-startButton.addEventListener('click', startGame)
-  backButton.addEventListener('click', () => {
-  currentQuestionIndex++
-  setcurrentQuestion()
-})
-
 function startGame() {
   startButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
-}
-
-function setNextQuestion() {
-  resetState()
-  showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
 function setNextQuestion() {
