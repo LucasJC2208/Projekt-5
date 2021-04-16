@@ -3,7 +3,6 @@
   font-family: sans-serif;
 }
 
-
 :root {
   --hue-neutral: 200;
   --hue-wrong: 200;
@@ -25,10 +24,8 @@ body {
 body  {
     background-image: url("img/venner.png");
     background-color: #cccccc;
-}
-
-.j
-{float: right;
+    background-size: cover;
+    background-position: center;
 }
 
 body.correct {
