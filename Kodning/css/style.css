@@ -3,6 +3,7 @@
   font-family: sans-serif;
 }
 
+
 :root {
   --hue-neutral: 200;
   --hue-wrong: 200;
@@ -21,8 +22,22 @@ body {
   background-color: hsl(var(--hue), 100%, 20%);
 }
 
+<<<<<<< HEAD
 .backgroundImg  {
     background-image: url("img/venner.png");
+=======
+<<<<<<< HEAD
+.venner {
+    background-image: url("img/venner.png");
+    background-color: #cccccc;
+=======
+body  {
+    background-image: url("img/venner.png");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+>>>>>>> d4805725952f4420404d97a0292e33e214b3b34f
+>>>>>>> 8dfb82b7a24ff7bcf48d5f865ebe2136b98d50a0
 }
 
 body.correct {
