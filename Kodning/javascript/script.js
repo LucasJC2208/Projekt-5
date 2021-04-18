@@ -148,3 +148,4 @@ const questions = [
       { text: 'Nej', correct: false},
     ]
   }
+]
