@@ -21,7 +21,7 @@ function startGame() {
   setNextQuestion()
 }
 
-function backGame() {
+function backGame()  {
   backButton.classList.add('hide')
   shuffledQuestions = questions.sort(() => Math.random() - .5)
   currentQuestionIndex = 0
