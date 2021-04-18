@@ -1,5 +1,6 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
+const backButton = document.getElementById('back-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
@@ -78,14 +79,14 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Har du mistet en som står dig nær?',
+    question: 'Hvor gammel er du?',
     answers: [
       { text: 'Ja', correct: true},
       { text: 'Nej', correct: false},
     ]
   },
   {
-    question: 'Hvor gammel er du?',
+    question: 'Har du mistet en som står dig nær?',
     answers: [
       { text: 'Ja', correct: true},
       { text: 'Nej', correct: false},
