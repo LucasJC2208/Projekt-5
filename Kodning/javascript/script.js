@@ -21,14 +21,6 @@ function startGame() {
   setNextQuestion()
 }
 
-function backGame()  {
-  backButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
-  currentQuestionIndex = 0
-  questionContainerElement.classList.remove('hide')
-  setNextQuestion()
-}
-
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
@@ -87,14 +79,14 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Har du mistet en som står dig nær?',
+    question: 'Hvor gammel er du?',
     answers: [
       { text: 'Ja', correct: true},
       { text: 'Nej', correct: false},
     ]
   },
   {
-    question: 'Hvor gammel er du?',
+    question: 'Har du mistet en som står dig nær?',
     answers: [
       { text: 'Ja', correct: true},
       { text: 'Nej', correct: false},
