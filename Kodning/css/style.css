@@ -75,7 +75,7 @@ body {
 }
 
 .back-btn {
-  background-image: url(../img/left.png);
+  background-image: url(../../assets/images/arrow-left-white.png);
   background-size: cover;
   background-color: #159655;
   border: none;
@@ -86,7 +86,7 @@ transform: scale(1.1);
 }
 
 .next-btn {
-  background-image: url(../img/right.png);
+  background-image: url(../../assets/images/arrow-right-white.png);
   background-size: cover;
   background-color: #159655;
   border: none;
