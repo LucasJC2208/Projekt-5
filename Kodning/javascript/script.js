@@ -200,13 +200,7 @@ const questions = [
     question: "Tak for din tid. Den Fynske Sorggruppe fokuserer på at hjælpe de, der har mistet en, der stod dem nær. Klik på linket herunder og få overblik over alternative organisationer, der kan hjælpe dig med det, du har brug for.",
     answers: [
       { text: "Alternative organisationer", correct: true },
-    ],
-    answer: null,
-  },
-  {
-    question: "Tak for din tid. Det virker til, at Den Fynske Sorggruppe kan hjælpe dig med lige præcis det, du har brug for. Gennem gratis deltagelse i sorggruppens terapiforløb får du støtte og hjælp til, at bearbejde din sorg og finde glæden igen. Klik på linket herunder for at høre mere.",
-    answers: [
-      { text: "Læs mere", correct: true },
+      { text: "Den Fynske Sorggruppe", correct: false },
     ],
     answer: null,
   },
