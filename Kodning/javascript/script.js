@@ -101,8 +101,6 @@ function selectAnswer(e, answer) {
 
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove("hide");
-    ////#Tilbage knap
-    // ----Viser tilbage knappen - afhængig af currentQuestionIndex og hvis den har hide klassse eller ej
     if (currentQuestionIndex > 0 && backButton.classList.contains("hide")) {
       backButton.classList.remove("hide");
     } else if (
@@ -115,9 +113,6 @@ function selectAnswer(e, answer) {
   } else {
     startButton.innerText = "Send besvarelse";
     startButton.classList.remove("hide");
-    //-------------------------------------------------------------------------------------------------------
-    //var somelink = "'https://www.sololearn.com/learning/1024'";   //online link eller lokation til fil
-    //startButton.setAttribute("onclick","weblink("+somelink+")");  //Tiliføjer onclik funktion til startButten.
     startButton.setAttribute("onclick","submit()");
     //--------------------------------------------------------------------------------------------------------
   }
@@ -137,12 +132,9 @@ function clearStatusClass(element) {
   element.classList.remove("wrong");
 }
 
-//----------------------------------------------------------------
 function weblink(link) {
-  //Indput: Hvis Online, brug url. Hvis offline, brug fil location
   window.location.assign(link);
 }
-//----------------------------------------------------------------
 
 
 const questions = [
