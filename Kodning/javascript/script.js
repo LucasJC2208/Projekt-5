@@ -1,3 +1,5 @@
+// MIES KODE STARTER HER
+
 const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
 const backButton = document.getElementById("back-btn");
@@ -28,6 +30,8 @@ function startGame() {
   setNextQuestion();
 }
 
+// MIES KODE SLUTTER HER
+
 function setNextQuestion() {
   resetState();
   showQuestion(shuffledQuestions[currentQuestionIndex]);
@@ -50,6 +54,8 @@ function showQuestion(question) {
     answerButtonsElement.appendChild(button);
   });
 }
+
+//
 
 function resetState() {
   // Next index 0
