@@ -2,6 +2,7 @@ const startButton = document.getElementById("start-btn");
 const nextButton = document.getElementById("next-btn");
 const backButton = document.getElementById("back-btn");
 const questionContainerElement = document.getElementById("question-container");
+const finishContainerElement = document.getElementById("finish-container");
 const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons");
 
@@ -64,6 +65,13 @@ function resetState() {
   }
 }
 
+//------------------------------------------------
+function submit() {
+  questionContainerElement.classList.add("hide");
+  finishContainerElement.classList.remove("hide");
+}
+//------------------------------------------------
+
 function selectAnswer(e, answer) {
   //////#Gem svar funktion
   // gemmer svaret i questions objekt
@@ -91,8 +99,13 @@ function selectAnswer(e, answer) {
       backButton.classList.add("hide");
     }
   } else {
-    startButton.innerText = "Restart";
+    startButton.innerText = "Send besvarelse";
     startButton.classList.remove("hide");
+    //-------------------------------------------------------------------------------------------------------
+    //var somelink = "'https://www.sololearn.com/learning/1024'";   //online link eller lokation til fil
+    //startButton.setAttribute("onclick","weblink("+somelink+")");  //Tiliføjer onclik funktion til startButten.
+    startButton.setAttribute("onclick","submit()");
+    //--------------------------------------------------------------------------------------------------------
   }
 }
 
@@ -109,6 +122,14 @@ function clearStatusClass(element) {
   element.classList.remove("correct");
   element.classList.remove("wrong");
 }
+
+//----------------------------------------------------------------
+function weblink(link) {
+  //Indput: Hvis Online, brug url. Hvis offline, brug fil location
+  window.location.assign(link);
+}
+//----------------------------------------------------------------
+
 
 const questions = [
   {
@@ -195,13 +216,8 @@ const questions = [
       { text: "Nej", correct: false },
     ],
     answer: null,
-  },
-  {
-    question: "Tak for din tid. Den Fynske Sorggruppe fokuserer på at hjælpe de, der har mistet en, der stod dem nær. Klik på linket herunder og få overblik over alternative organisationer, der kan hjælpe dig med det, du har brug for.",
-    answers: [
-      { text: "Alternative organisationer", correct: true },
-      { text: "Den Fynske Sorggruppe", correct: false },
-    ],
-    answer: null,
-  },
+  }
+  //-----------------
+  //Fjernet en del og indsat div i HTML
+  //-----------------
 ];
