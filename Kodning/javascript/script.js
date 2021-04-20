@@ -32,6 +32,7 @@ function startGame() {
 
 // MIES KODE SLUTTER HER
 
+// DANIEL KODE STARTER HER
 function setNextQuestion() {
   resetState();
   showQuestion(shuffledQuestions[currentQuestionIndex]);
@@ -55,7 +56,9 @@ function showQuestion(question) {
   });
 }
 
-//
+// DANIEL KODE SLUTTER HER
+
+// LUCAS KODE STARTER HER
 
 function resetState() {
   // Next index 0
@@ -91,6 +94,11 @@ function selectAnswer(e, answer) {
   Array.from(answerButtonsElement.children).forEach((button) => {
     setStatusClass(button, button.dataset.correct);
   });
+
+// LUCAS KODE SLUTTER HER
+
+// LAURA KODE STARTER HER
+
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove("hide");
     ////#Tilbage knap
@@ -227,3 +235,5 @@ const questions = [
   //Fjernet en del og indsat div i HTML
   //-----------------
 ];
+
+// LAURA KODE SLUTTER HER
