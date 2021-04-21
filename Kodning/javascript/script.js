@@ -7,8 +7,6 @@ const questionContainerElement = document.getElementById("question-container");
 const finishContainerElement = document.getElementById("finish-container");
 const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons");
-const questionElement = document.getElementById("question2");
-const answerButtonsElement = document.getElementById("answer-buttons2");
 
 let shuffledQuestions, currentQuestionIndex;
 
